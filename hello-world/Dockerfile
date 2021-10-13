@@ -28,6 +28,7 @@ RUN	DEBIAN_FRONTEND=noninteractive apt-get update -y && \
 # image from that context
 #
 COPY	index.html	/var/www/html
+COPY	index.html	/tmp/
 
 #
 # Containers communicate with the outside world through network ports and storage through volumes.
